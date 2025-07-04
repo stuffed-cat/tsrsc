@@ -1,0 +1,17 @@
+{
+  "name": "tsrsc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "this is TS-code convert to RS-code compiler of ts-code improve performance ",
+  "devDependencies": {
+    "@types/node": "^20.19.4"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  }
+}
